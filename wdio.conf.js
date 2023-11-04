@@ -1,4 +1,4 @@
-exports.config = {
+export const config = {
     //
     // ====================
     // Runner Configuration
@@ -22,8 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        // ToDo: define location for spec files here
-        "./test/specs/*.js"
+        '.test/specs/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -52,16 +51,13 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'vscode',
-        browserVersion: 'stable', // also possible: "insiders" or a specific version e.g. "1.80.0"
-        'wdio:vscodeOptions': {
-            // points to directory where extension package.json is located
-            extensionPath: __dirname,
-            // optional VS Code settings
-            userSettings: {
-                "editor.fontSize": 14
+        browserName: 'chrome',
+        acceptInsecureCerts: true,
+        'goog:chromeOptions': {
+            // to run chrome headless the following flags are required
+            // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+            args: ['--headless', '--disable-gpu'],
             }
-        }
     }],
 
     //
@@ -95,7 +91,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: '',
+    baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

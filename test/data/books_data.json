@@ -1,0 +1,29 @@
+{
+    "valid_books": {
+        "userId": "792347b6-8745-4038-b68e-8715b34760da",
+        "collectionOfIsbns": [
+            {
+                "isbn": "9781449331818"
+            }
+        ]
+    },
+    "isbn_already_exist": {
+        "userId": "792347b6-8745-4038-b68e-8715b34760da",
+        "collectionOfIsbns": [
+            {
+                "isbn": "9781449331818"
+            }
+        ]
+    },
+    "token_unauthorize": {
+        "userId": "792347b6-8745-4038-b68e-8715b34760da",
+        "collectionOfIsbns": [
+            {
+                "isbn": "9781449331818"
+            }
+        ]
+    },
+    "data_user": {
+        "userId": "792347b6-8745-4038-b68e-8715b34760da"
+    }
+}
