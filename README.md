@@ -8,6 +8,8 @@ Phone Number : +6282216550540
 Techstack :
 - Webdriver.IO
 - Mocha.js
+- Supertest
+- Chai
 
 How to setup: 
 
