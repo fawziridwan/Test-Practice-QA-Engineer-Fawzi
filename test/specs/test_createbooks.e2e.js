@@ -1,8 +1,8 @@
 const assert = require('chai').expect;
 
 // services object
-const tokenRequest = require('../services/TokenService');
-const booksRequest = require('../services/BookstoreService');
+const tokenRequest = require('../pageobjects/TokenService');
+const booksRequest = require('../pageobjects/BookstoreService');
 
 // data testing(payload)
 const tokenData = require('../data/token_credential.json');

@@ -1,4 +1,4 @@
-export const config = {
+exports.config = {
     //
     // ====================
     // Runner Configuration
@@ -22,7 +22,8 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        '.test/specs/*.js'
+        // './test/specs/*.js'
+        './test/specs/test_createbooks.e2e.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -51,6 +52,7 @@ export const config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
+        // capabilities for local browser web tests
         browserName: 'chrome',
         acceptInsecureCerts: true,
         'goog:chromeOptions': {
