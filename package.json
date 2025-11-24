@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "test:authorization": "wdio run ./wdio.conf.js --spec ./test/specs/test_authorization.js"
+    "test:authorization": "wdio run ./wdio.conf.js --spec ./test/specs/test_authorization.js",
+    "test:bookstore": "wdio run ./wdio.conf.js --spec ./test/specs/test_get_books.js" 
   },
   "keywords": [],
   "author": "",
