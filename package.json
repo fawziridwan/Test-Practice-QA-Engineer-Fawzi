@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.17.0"
+  },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
     "test:authorization": "wdio run ./wdio.conf.js --spec ./test/specs/test_authorization.js",
