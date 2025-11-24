@@ -22,8 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        // './test/specs/*.js'
-        './test/specs/test_createbooks.e2e.js'
+        './test/specs/*.js'
     ],
     // Patterns to exclude.
     exclude: [

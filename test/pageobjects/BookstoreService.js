@@ -17,4 +17,12 @@ const BookstoreService = (payload) => api.post('/BookStore/v1/Books')
   .set('Accept', 'application/json')
   .set('Authorization', `Bearer ${token}`)  
 
-module.exports = { BookstoreService , DeleteBookstore }
+  const GetBookstore = () => api.get('/BookStore/v1/Books')
+  .set('accept', 'application/json')
+  .set('Content-Type', 'application/json')
+
+const GetBookstoreByISBN = (ISBN) => api.get(`/BookStore/v1/Book?ISBN=` + ISBN)
+  .set('accept', 'application/json')
+  .set('Content-Type', 'application/json')
+
+module.exports = { BookstoreService , GetBookstore, GetBookstoreByISBN, DeleteBookstore }
