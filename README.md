@@ -1,6 +1,6 @@
 Test Practice QA Engineer 
 
-[![run api testing](https://github.com/fawziridwan/Test-Practice-QA-Engineer-Fawzi/actions/workflows/main.yml/badge.svg)](https://github.com/fawziridwan/Test-Practice-QA-Engineer-Fawzi/actions/workflows/main.yml)
+[![run api testing](https://github.com/fawziridwan/Test-Practice-QA-Engineer-Fawzi/actions/workflows/test-ci_v3.yml/badge.svg)](https://github.com/fawziridwan/Test-Practice-QA-Engineer-Fawzi/actions/workflows/test-ci_v3.yml)
 
 Name : Fawzi Ridwan Supiyaddin
 Phone Number : +6282216550540
